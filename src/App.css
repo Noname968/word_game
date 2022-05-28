@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 55vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.levelselect{
+    /* border: 2px solid red; */
+    margin: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+    /* padding: 8px; */
+    font-size: 35px;
 }
-
-.App-link {
-  color: #61dafb;
+p{
+    font-size: 15px;
+    padding: 4px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.questionarea{
+    height: 100vh;
+    max-width: 1000px;
+    margin: auto;
+}
+.questions{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 8px;
+    width: 200px;
+    height: 160px;
+}
+.p{
+    font-size: 20px;
+}
+.questbtns{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+.questbtn{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkcyan;
+    color: white;
+}
+button:disabled{
+    background-color: darkgrey;
+    color: darkolivegreen;
+}
+select{
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkcyan;
+    color: white;
+}
+.btn{
+    margin: 0;
+    padding: 10px;
+}
+@media (max-width: 484px){
+    .card{
+        margin: 6px auto;
+    }
+    .btn{
+        margin: 5px;
+    }
+}
+@media (max-width:344px){
+    .questionarea h1{
+        font-size: 25px;
+    }
+    .questionarea h3{
+        font-size: 20px;
+    }
 }
