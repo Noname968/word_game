@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Word-Quiz/static/css/main.d067fb9b.css",
+    "main.js": "/Word-Quiz/static/js/main.7ac5259f.js",
+    "static/js/787.7e5f25d1.chunk.js": "/Word-Quiz/static/js/787.7e5f25d1.chunk.js",
+    "index.html": "/Word-Quiz/index.html",
+    "main.d067fb9b.css.map": "/Word-Quiz/static/css/main.d067fb9b.css.map",
+    "main.7ac5259f.js.map": "/Word-Quiz/static/js/main.7ac5259f.js.map",
+    "787.7e5f25d1.chunk.js.map": "/Word-Quiz/static/js/787.7e5f25d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d067fb9b.css",
+    "static/js/main.7ac5259f.js"
+  ]
+}
